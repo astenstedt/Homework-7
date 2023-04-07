@@ -65,6 +65,7 @@ def make_players_table(data, cur, conn):
     cur.execute('INSERT INTO Players (name, position_id, birthyear, nationality) VALUES (name, position_id, birthyear, nationality);')
 
     conn.commit()
+    #commiting 
 
 
 ## [TASK 2]: 10 points
