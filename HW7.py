@@ -88,6 +88,7 @@ def nationality_search(countries, cur, conn):
 
     conn.commit()
     return lst
+    #commit
 
 ## [TASK 3]: 10 points
 # finish the function birthyear_nationality_search
