@@ -109,6 +109,7 @@ def nationality_search(countries, cur, conn):
 
 def birthyear_nationality_search(age, country, cur, conn):
     lst = []
+    
     cur.execute('SELECT name, nationality, birthyear FROM Players WHERE nationality IN (country)')
     for player in cur:
         lst.append(player)
